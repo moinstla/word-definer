@@ -13,8 +13,15 @@ describe(Word) do
   describe(".all") do
     it("starts out as empty") do
       expect(Word.all()).to(eq([]))
-
     end
+  end
+
+  describe("#id") do
+    it("returns the id of the word") do
+      test_word = Word.new("butterfly")
+      expect(test_word.id()).to(eq(1))
+    end
+  end
 
   describe("#save") do
     it("saves the word to the words array") do
@@ -23,8 +30,4 @@ describe(Word) do
       expect(Word.all()).to(eq([test_word]))
     end
   end
-
-  end
-
-
 end
