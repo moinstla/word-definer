@@ -1,5 +1,11 @@
 <h1>Welcome to the Word Definer</h1>
 <h3>My Words:</h3>
 
+<ul>
+  <% @words.each() do |word| %>
+    <a href="/index/<%= word.id() %>"><li><%= word.name() %></a></li>
+  <% end %>
+</ul>
+
 
 <h4><a href="/add_word">Add Word</a></h4>

@@ -47,10 +47,15 @@ class Definition
 
   define_method(:initialize) do |description|
     @description = description
+    @id = @@descriptions.length().+(1)
   end
 
   define_method(:description) do
     @description
+  end
+
+  define_method(:id) do
+    @id
   end
 
   define_singleton_method(:all) do

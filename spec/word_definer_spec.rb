@@ -72,6 +72,13 @@ describe(Definition) do
     end
   end
 
+  describe("#id") do
+    it("returns the id of the definition") do
+      test_definition = Definition.new("insect with large wings")
+      expect(test_definition.id()).to(eq(1))
+    end
+  end
+
   describe("#save") do
     it("saves the word to the words array") do
       test_definition = Definition.new("insect with large wings")
