@@ -1,0 +1,22 @@
+
+
+<h3>Definitions for <%= @thisword %> <h3>
+
+
+  <ul>
+    <% @definitions.each() do |definition| %>
+      <li><%= definition.description() %></a></li>
+    <% end %>
+  </ul>
+
+  <form action="/new_definition" method="post">
+    <div class="form-group">
+
+       <label for="definition">Add a new definition here:</label>
+       <input name="definition" id="definition" class="form-control" type="text">
+    </div>
+    <button class="btn btn-success">Submit</button>
+  </form>
+
+
+<a href="/">Return to your word list</a></h4>
