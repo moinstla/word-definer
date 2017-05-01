@@ -1,17 +1,14 @@
-require "capybara/rspec"
-require "./app"
-
-Capybara.app = Sinatra::Application
-set(:show_exceptions, false)
-
-# example integration test
-
-# describe("the phrase parser path", {:type => :feature}) do
-#   it("processes the user input and returns correct message if its a palindrome") do
-#     visit("/")
-#     fill_in("phrase1", :with => "madam")
-#     fill_in("phrase2", :with => "anagram")
-#     click_button("what am i?")
-#     expect(page).to have_content("'madam' is a palindrome")
+# 
+# require('capybara/rspec')
+# require('./app')
+# Capybara.app = Sinatra::Application
+# set(:show_exceptions, false)
+#
+# describe('The new word path', {:type => :feature}) do
+#   it('Takes the name of a new word') do
+#     visit('/add_word')
+#     fill_in('word', :with => "butterfly")
+#     click_button('Submit')
+#     expect(page).to have_content("butterfly")
 #   end
 # end
