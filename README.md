@@ -1,39 +1,35 @@
-# <!--PROJECT NAME HERE-->
+# Word Definer
 
-<!--PROJECT DESCRIPTION HERE-->
+#### Object-Oriented Ruby Independent Project for Epicodus, 4/30/2017
 
-### Prerequisites
+#### By Monique St. Laurent
 
-Web browser with ES6 compatibility
-Examples: Chrome, Safari
+## Description
 
-Ruby <!--VERSION HERE-->
-Bundler
+This is a website that allows the user to create their own dictionary of words and definitions
 
-### Installing
+## Installation Requirements
 
-Installation is quick and easy! First you can open this link <!--HEROKU LINK HERE--> to see the webpage in action live online. Or you can clone this repository to your machine, navigate to the file path in your terminal, and run 'app.rb' by typing '$ruby app.rb'. If you chose to clone the repository, after you run 'app.rb' you will need to copy the localhost path into your web browser. The standard localhost for Sinatra is port 4567
+* Clone the repository: https://github.com/moinstla/word-definer.git
+* In the terminal, go to the project directory and run "ruby app.rb"
+* In browser, got to localhost:4567
 
-## Built With
+## Known Bugs
+
+There are no known bugs
+
+## Support and contact details
+
+Email moinstla@gmail.com for support
+
+
+## Technologies Used
 
 * Ruby
 * Sinatra
-* HTML
-* CSS
-* Bootstrap https://getbootstrap.com/
-* ES6
-* Jquery https://jquery.com/
+* html
+* Bootstrap
 
-## Specifications
+### License
 
-| behavior |  input   |  output  |
-|----------|:--------:|:--------:|
-<!--SPECS GO HERE-->
- 
-## Authors
-
-* <!--YOUR NAME HERE-->
-
-## License
-
-Copyright © 2017 <!--YOUR NAME HERE-->
+This software is available under the MIT License Copyright (c) 2017 Monique St. Laurent
